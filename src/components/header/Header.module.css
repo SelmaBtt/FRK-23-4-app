@@ -1,0 +1,27 @@
+.headerWrapper{
+    background-color: #295135;
+    display: grid;
+    grid-template-areas: 
+        "logo links contact"
+    ;
+    grid-template-columns: auto 1fr 1fr;
+    gap: 5.5%;
+    padding: 18px 7.3%;
+    align-content: center;
+}
+
+.logoContainer{
+    grid-area: logo;
+}
+
+.linkContainer{
+    grid-area: links;
+    width: 73%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnContainer{
+    grid-area: contact;
+    justify-self: end;
+}

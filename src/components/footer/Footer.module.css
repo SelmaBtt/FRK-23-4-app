@@ -1,0 +1,12 @@
+.contentWrapper{
+    background-color: #295135;
+    padding: 42px 7.3%;
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}
+
+.mainInfoWrapper, .extraInfoWrapper{
+    display: flex;
+    justify-content: space-between;
+}

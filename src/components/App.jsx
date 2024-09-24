@@ -1,3 +1,4 @@
+import Footer from "./footer/Footer";
 import Header from "./header/Header";
 import Router from "./utils/Router";
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <Header />
       <Router />
+      <Footer />
     </>
   )
 }
